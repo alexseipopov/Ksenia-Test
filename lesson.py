@@ -17,12 +17,11 @@ def summ(*args):
     return result
 
 
-print(summ(1,2,3,4,5,6))
 print(summ("some", True, "hello"))
 print(summ(30, "text", False))
 
 d = [
-    [1, 3, 30], 
+    [1, 3, 30, 10, 20, 11111111111], 
     [2, 4, 4]
 ]
 i = 0
